@@ -1,0 +1,28 @@
+.btn_block{
+    max-width: 300px;
+    margin-left: auto;
+    padding: 15px 0 20px 0;
+    display: flex;
+}
+.btn_remove{
+    position: relative;
+    margin-right: 20px;
+    padding: 12px 22px;
+    font-size: 15px;
+    background: #493a64;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.btn_save{
+    position: relative;
+    right: 0;
+    padding: 12px 22px;
+    font-size: 15px;
+    background: #4c2493;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}

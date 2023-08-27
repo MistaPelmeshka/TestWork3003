@@ -1,0 +1,97 @@
+2023-08-26T11:30:30+00:00 CRITICAL syntax error, unexpected token "}" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 207
+
+2023-08-26T11:57:18+00:00 CRITICAL syntax error, unexpected token "if" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 204
+
+2023-08-26T11:57:42+00:00 CRITICAL Uncaught Error: Undefined constant "value" in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:203
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 203
+
+2023-08-26T13:50:31+00:00 CRITICAL syntax error, unexpected token "}" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 236
+
+2023-08-26T13:50:47+00:00 CRITICAL syntax error, unexpected token "}" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 236
+
+2023-08-26T16:20:42+00:00 CRITICAL syntax error, unexpected token "(", expecting ":" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 239
+
+2023-08-26T16:20:43+00:00 CRITICAL syntax error, unexpected token "(", expecting ":" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 239
+
+2023-08-26T17:50:31+00:00 CRITICAL Uncaught Error: Call to a member function save() on null in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:252
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 252
+
+2023-08-26T17:56:47+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 251
+
+2023-08-26T17:56:49+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 251
+
+2023-08-26T17:57:27+00:00 CRITICAL Uncaught Error: Call to a member function save() on null in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 253
+
+2023-08-26T17:57:29+00:00 CRITICAL Uncaught Error: Call to a member function save() on null in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 253
+
+2023-08-26T18:09:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::update_post_meta() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 242
+
+2023-08-26T18:09:51+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::update_post_meta() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 242
+
+2023-08-26T18:10:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::update_post_meta() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 242
+
+2023-08-26T18:11:01+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::update_post_meta() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 242
+
+2023-08-26T18:14:41+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::update_post_meta() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 242
+

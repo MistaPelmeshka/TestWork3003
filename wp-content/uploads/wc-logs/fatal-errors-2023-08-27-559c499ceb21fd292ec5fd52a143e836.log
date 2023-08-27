@@ -1,0 +1,114 @@
+2023-08-27T16:09:22+00:00 CRITICAL syntax error, unexpected token "if" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 289
+
+2023-08-27T16:09:22+00:00 CRITICAL syntax error, unexpected token "if" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 289
+
+2023-08-27T16:09:45+00:00 CRITICAL Unclosed '{' on line 278 в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 345
+
+2023-08-27T16:11:23+00:00 CRITICAL syntax error, unexpected token "endif" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 303
+
+2023-08-27T18:46:41+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 287
+
+2023-08-27T18:46:43+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 287
+
+2023-08-27T18:47:42+00:00 CRITICAL syntax error, unexpected token "echo" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 288
+
+2023-08-27T18:47:42+00:00 CRITICAL syntax error, unexpected token "echo" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 288
+
+2023-08-27T18:58:49+00:00 CRITICAL syntax error, unexpected token "if", expecting "," or ";" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 343
+
+2023-08-27T19:04:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php on line 302 and at least 1 expected in C:\xampp\htdocs\test2003\wp-includes\post.php:2515
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php(302): get_post_meta()
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): art_get_text_field_after_add_card('')
+#2 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test2003\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(54): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\test2003\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test2003\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1711): wc_get_template('single-product/...')
+#7 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): woocommerce_simple_add_to_cart('')
+#8 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\test2003\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AddToCartForm.php(83): do_action('woocommerce_sim...')
+#11 C:\xampp\htdocs\test2003\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(88): Automattic\WooCommerce\Blocks\BlockTypes\AddToCartForm->render(Array, '', Object(WP_Block))
+#12 C:\xampp\htdocs\test2003\wp-includes\class-wp-block.php(258): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callback(Array, '', Object(WP_Block))
+#13 C:\xampp\htdocs\test2003\wp-includes\class-wp-block.php(244): WP_Block->render()
+#14 C:\xampp\htdocs\test2003\wp-includes\class-wp-block.php(244): WP_Block->render()
+#15 C:\xampp\htdocs\test2003\wp-includes\class-wp-block.php(244): WP_Block->render()
+#16 C:\xampp\htdocs\test2003\wp-includes\class-wp-block.php(244): WP_Block->render()
+#17 C:\xampp\htdocs\test2003\wp-includes\blocks.php(1133): WP_Block->render()
+#18 C:\xampp\htdocs\test2003\wp-includes\blocks.php(1171): render_block(Array)
+#19 C:\xampp\htdocs\test2003\wp-includes\block-template.php(231): do_blocks('<!-- wp:templat...')
+#20 C:\xampp\htdocs\test2003\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#21 C:\xampp\htdocs\test2003\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\test2003\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\test2003\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-includes\post.php на строке 2515
+
+2023-08-27T19:35:35+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 347
+
+2023-08-27T20:11:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::set_product_images() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:11:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::set_product_images() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:16:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::addImageToMediaGallery() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:17:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::addImageToMediaGallery() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:17:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::addImageToMediaGallery() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:17:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::addImageToMediaGallery() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 244
+
+2023-08-27T20:18:44+00:00 CRITICAL syntax error, unexpected variable "$product", expecting "," or ";" в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 245
+
+2023-08-27T20:19:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::addImageToMediaGallery() in C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php:245
+Stack trace:
+#0 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(310): ajax_action_create_product('')
+#1 C:\xampp\htdocs\test2003\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\test2003\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\test2003\wp-admin\admin-ajax.php(188): do_action('wp_ajax_create_...')
+#4 {main}
+  thrown в C:\xampp\htdocs\test2003\wp-content\themes\twentytwentythree -child\functions.php на строке 245
+

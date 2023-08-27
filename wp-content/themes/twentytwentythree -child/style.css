@@ -1,0 +1,185 @@
+/*
+Theme Name: Twenty Ten Child
+Description: Дочерняя тема для темы twentytwentythree 
+Author: Максим 
+Template: twentytwentythree
+*/
+.title{
+    margin-left: 40px;
+    
+}
+.title h1{
+    font-size: calc(1.4rem + 0.5vw) !important;
+}
+.section__form{
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px silver;
+    padding: 20px;
+    position: relative;
+}
+.section__form div:nth-child(3){
+    width: 100%;
+}
+.section__form div:nth-child(3) input{
+    margin: 0 auto;
+}
+.production_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.production_form label{
+    display: block;
+    margin-left:10px;
+}
+.production_form select,
+.production_form input{
+    font-size: 16px;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 13px;
+    display: block;
+    border: 1px solid silver;
+    margin: 0px 10px 25px 10px;
+    outline:none;
+}
+.production_form #product_image{
+    border: none;
+    padding: 10px 10px 10px 0;
+}
+.production_form span{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 25px 10px;
+}
+.production_form span input{
+    margin: 0 0 0 10px;
+}
+.production_form p {
+    margin: 0 0 0 10px; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+}
+.product_image {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+label.product_image-block {
+    max-width:320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+} 
+label.product_image-block span{
+    margin: 0;
+}
+.product_image {
+    display: none !important;
+}
+.product_image-text {
+    height: 60px;
+    width: calc(100% - 130px);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 13px 0 0 13px;
+    border-right: none;
+}   
+.product_image-button {
+    width: 130px;
+    height: 60px;
+    background: #c060d1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 13px 13px 0;
+    /* cursor: pointer; */
+    border: 1px solid #717171;
+    transition: .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+.product_image-button::before{
+    content: '';
+    position: absolute;
+    left: -77px;
+    top: 25px;
+    width: 91px;
+    height: 10px;
+    background: #f7c5ff;
+    transform: rotate(124deg);
+    transition: .2s ease-in-out;
+}
+
+label.product_image-block:hover .product_image-button{
+    background: #86099c;
+}
+label.product_image-block:hover .product_image-button::before{
+    left: 130px;
+}
+.product_image-block .product_image-text2{
+    display: none;
+}
+.product_image-block .product_image-text2.done{
+    display: block;
+}
+.product_image-block.error_img .product_image-text2,
+.product_image-block.error_img .product_image-text{
+    opacity: 0;
+}
+.product_image-block .product_image-text.done{
+    display: none;
+}
+.product_image-block .error_msg{
+    position: absolute;
+    left: 20px;
+}
+.error{
+    border:1px solid red !important;
+    position: relative;
+}
+span.error_msg{
+/*     position: absolute;
+    left:0;
+    top:0; */
+    margin: 0 0 0 10px;
+    color: red;
+}
+
+.done_form{
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 200px);
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 100px 97px rgba(9, 206, 236, 0.2);
+        -webkit-box-shadow: 0px 0px 100px 97px rgba(9, 206, 236, 0.2);
+        -moz-box-shadow: 0px 0px 100px 97px rgba(9, 206, 236, 0.2);
+    z-index: 12;
+}
+#add_production{
+    background: #f7c5ff;
+    transition: .3s ease-in-out;
+}
+#add_production:hover{
+    background: #8e06a3;
+    color: aliceblue;
+}
